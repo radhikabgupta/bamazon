@@ -1,0 +1,28 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "This application implements a simple command line based storefront using Node.js and MySQL. There are three interfaces available in this application:  customer, manager, and supervisor.",
+  "main": "customerView.js",
+  "scripts": {
+    "test": "node custermoerView.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radhikabgupta/bamazon.git"
+  },
+  "keywords": [
+    "bamazon"
+  ],
+  "author": "RG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radhikabgupta/bamazon/issues"
+  },
+  "homepage": "https://github.com/radhikabgupta/bamazon#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "dot-env": "0.0.1",
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0"
+  }
+}
